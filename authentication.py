@@ -1,5 +1,5 @@
 def auth():
-	# once you have registered for API, you can
+	# once you have registered for an API, you can
 	# find 'em keys at https://apps.twitter.com while you are logged in with your account
 	# then click the API
 	# go-to "Keys and Access Tokens" tab for your keys and stuff
