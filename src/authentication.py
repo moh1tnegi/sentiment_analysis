@@ -8,7 +8,11 @@ def auth():
         go-to "Keys and Access Tokens" tab for your keys and stuff."""
     consumer_key = "xxxxxxxxxxxxxxxxxxxxxxxxx"  # API Key
     consumer_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # API Secret
+<<<<<<< HEAD
     # copy-paste the whole key wheather its like:- xxxxxxxxx-xxxxxxxxxxxxxxx or whatever
+=======
+    # copy-paste the whole key wheather its like:- xxxxxxxxx-xxxxxxxxxxxxxxx
+>>>>>>> 62ba8270e6eebe146a04ed628942cbd304b7772a
     access_token = "xxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     access_token_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
