@@ -1,22 +1,33 @@
-def get_em(tweets):
+def get_em(tweets, srch):
     pos = []
     neg = []
     nut = []
 
+    tw_len = len(tweets)
     for a_tweet in tweets:
-        # print(a_tweet['sentm'])
-        if a_tweet['sentiment'] == 1:
+        if a_tweet['sentiment'] > 0:
             pos.append(a_tweet)
         elif not a_tweet['sentiment']:
             nut.append(a_tweet)
         else:
             neg.append(a_tweet)
-    tw_len = len(tweets)
-    # p_per = (100*(len(pos)))/tw_len
-    n_per = (100*(len(neg)))/tw_len
-    u_per = (100*(len(nut)))/tw_len
-    # print(p_per)
-    print(n_per)
-    print(u_per)
-    # for i in tweets:
-    #     print(i)
+    get_per = lambda x: (100*(len(x)))/tw_len
+    print("\nSentiment Analysis for {}:".format(srch))
+
+    print("Positive tweets: ", end=' ')
+    try:
+        print(get_per(pos))
+    except ZeroDivisionError:
+        print(0)
+
+    print("Negative tweets: ", end=' ')
+    try:
+        print(get_per(neg))
+    except ZeroDivisionError:
+        print(0)
+
+    print("Neutral tweets:  ", end=' ')
+    try:
+        print(get_per(nut))
+    except ZeroDivisionError:
+        print(0)
