@@ -5,13 +5,13 @@ by analysing their tweets.
 Prerequisites:
     Please make sure that python v3 is your default system python interpreter or use virtual env.
 
-    Get your own twitter api at https://apps.twitter.com
-    Fill the required information (you may leave boxes without (*)).
-    Get all the four keys and tokens and put 'em into 'authentication.py' source file.
-    Install pip if not pre-installed - $ apt install python3-pip
-    Install textblob                 - $ pip install textblob
-    Install tweepy                   - $ pip install tweepy
-    Install nltk corpora             - $ python -m textblob.download_corpora
+    * Get your own twitter api at https://apps.twitter.com
+    * Fill the required information (you may leave boxes without (*)).
+    * Get all the four keys and tokens and put 'em into 'authentication.py' source file.
+    * Install pip if not pre-installed - $ apt install python3-pip
+    * Install textblob                 - $ pip install textblob
+    * Install tweepy                   - $ pip install tweepy
+    * Install nltk corpora             - $ python -m textblob.download_corpora
     
 Simply run the command in terminal after having above packages-
     $ python driver.py
