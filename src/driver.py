@@ -12,7 +12,7 @@ if __name__ == '__main__':
         print("Logged in as:", usrName)
     except ValueError:
         print("Invalid keys or tokens.\nAuthentication Failed!!\n")
-        print("Please checkout "README.md" and "authentication.py" file.")
+        print("Please checkout \"README.md\" and \"authentication.py\" file.")
         sys.exit()
     twat = []
     srch, tweets = fetch_tweets(api_obj)
