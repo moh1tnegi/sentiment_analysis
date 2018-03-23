@@ -11,12 +11,9 @@ Prerequisites:
     * Install pip if not pre-installed - $ apt install python3-pip
     * Install textblob                 - $ pip install textblob
     * Install tweepy                   - $ pip install tweepy
-    * Install nltk corpora             - $ python -m textblob.download_corpora
     
 Simply run the command in terminal after having above packages-
     $ python driver.py
 
 It will ask you for a username to search for. After providing it a username and number of
 tweets to analyse, you will get the analysed percentage of tweets.
-
-TODO: Plot graph for sentiments using matplotlib module.
